@@ -29,6 +29,10 @@ public class SphereMovement : MonoBehaviour {
 		
 	}
 
+    private void FixedUpdate()
+    {
+
+    }
 
     private void OnDisable()
     {
