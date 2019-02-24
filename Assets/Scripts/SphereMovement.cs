@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SphereMovement : MonoBehaviour {
 
+    private Rigidbody2D rb2d;
 
     private void Awake()
     {
@@ -20,6 +21,7 @@ public class SphereMovement : MonoBehaviour {
     // Use this for initialization
     void Start () {
         Debug.Log("Start");
+        rb2d = GetComponent<Rigidbody2D>();
 	}
 	
 	// Update is called once per frame
